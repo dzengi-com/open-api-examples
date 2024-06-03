@@ -1,0 +1,20 @@
+{
+  "name": "api-examples",
+  "version": "1.0.0",
+  "description": "for services",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dzengi-com/open-api-examples.git"
+  },
+  "scripts": {
+    "test:ws": "node api_ws/intro.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "crypto-js": "3.1.9-1",
+    "npm": "6.13.6",
+    "ws": "7.2.3",
+    "node": "12.14.0"
+  }
+}
